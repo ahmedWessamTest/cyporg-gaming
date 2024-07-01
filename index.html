@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>gaming website</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="assets/css/fontawesome.css" />
+    <link rel="stylesheet" href="assets/css/templatemo-cyborg-gaming.css" />
+  </head>
+  <body>
+    <div class="login-page">
+      <div class="container">
+        <div class="main-banner">
+          <div class="row gy-4">
+            <div class="col-lg-6 order-lg-1 login-text">
+              <div class="header-text">
+                <h6>Welcome To CYBORG</h6>
+                <h4><em>All</em> You Need Games Here</h4>
+              </div>
+            </div>
+            <div class="col-lg-6 login-form">
+              <div class="view">
+                <div class="main-card rounded-4 p-md-5 text-center">
+                  <a href="home.html" class="logo col-6 mx-auto mb-3 d-block">
+                    <img
+                      src="assets/images/logo.png"
+                      class="w-100 d-none d-md-block"
+                      alt=""
+                    />
+                  </a>
+                  <form>
+                    <div class="mb-3">
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="loginEmail"
+                        placeholder="Enter your email"
+                      />
+                      <ol class="list-group-numbered invalid-feedback">
+                        <li>
+                          Please enter a valid email address (e.g.,
+                          name@example.com).
+                        </li>
+                      </ol>
+                    </div>
+                    <div class="mb-3">
+                      <input
+                        type="password"
+                        class="form-control"
+                        id="loginPassword"
+                        placeholder="Enter your password"
+                      />
+                      <ol class="list-group-numbered invalid-feedback">
+                        <li class="list-group-item">
+                          Password must be at least 8 characters long.
+                        </li>
+                        <li class="list-group-item">
+                          include at least one letter.
+                        </li>
+                        <li class="list-group-item">
+                          include at least one number.
+                        </li>
+                      </ol>
+                    </div>
+                    <p>
+                      Don't have an account?
+                      <a href="register.html" class="regiter-link">Sign Up</a>
+                    </p>
+                    <div class="main-button">
+                      <button type="submit" id="submitBtn" class="border-0">LOGIN NOW</button>
+                    </div>
+                    <div
+                        id="submitErrorMsg"
+                        class="invalid-feedback d-block pt-2"
+                      ></div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- main js file -->
+    <script src="assets/main-js/index.js"></script>
+  </body>
+</html>
